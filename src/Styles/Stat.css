@@ -1,0 +1,38 @@
+.stats {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #def0fc;
+    margin: 0 0 0 0;
+}
+
+.stats__item {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 140px;
+}
+
+.stats__number {
+    font-size: 150px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5883a0;
+    margin-bottom: 10px;
+}
+
+.stats__item span {
+    font-size: 140px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5883a0;
+
+}
+
+.stats__label {
+    font-weight: 500;
+    font-size: 25px;
+    color: #5883a0;
+}
