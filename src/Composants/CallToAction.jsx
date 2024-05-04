@@ -5,11 +5,11 @@ import '../Styles/CallToAction.css'
 Fade
 const CallToAction = () => {
     return (
-        <Zoom>
+        <Zoom >
             <div className="flex justify-center">
                 <div className='w-1/2 pb-4'>
                     <div className="relative">
-                        <Zoom>      
+                        <Zoom cascade={true}>      
                             <img src={bleu} alt="image 1" className='block w-full h-auto' />
                         </Zoom>
                         <a href='#' className='absolute top-1/2 left-1/2 
