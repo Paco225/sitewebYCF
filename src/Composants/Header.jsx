@@ -41,7 +41,7 @@ const Header = () => {
                     </button>
                 </div>
 
-                {/* Liens pour tablette et desktop */}
+                
                 <ul className="hidden md:flex justify-center space-x-6">
                     <li>
                         <Link to={'/'} className="text-white font-semibold hover:text-gray-300">ACCUEIL</Link>
